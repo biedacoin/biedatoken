@@ -83,4 +83,8 @@ contract Biedatoken {
     function newMinter(address _newMinter) public onlyMinter {
         minter = _newMinter;
     }
+
+    function kek() public pure returns(uint32) {
+        return 69;
+    }
 }
